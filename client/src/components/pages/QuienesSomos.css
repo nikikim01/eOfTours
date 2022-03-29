@@ -1,0 +1,34 @@
+.QuienesSomos-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 60px 0px 60px;
+}
+
+.QuienesSomos-title {
+  color: #cbb058;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.QuienesSomos-imgContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.QuienesSomos-img {
+  width: 75vw;
+  height: auto;
+  margin: 0 8vw;
+  position: relative;
+}
+
+.QuienesSomos-imgTitle {
+  display: block;
+  color: white;
+  font-weight: bolder;
+  font-size: 55px;
+  position: absolute;
+  top: 60vh;
+  left: 40vw;
+}
