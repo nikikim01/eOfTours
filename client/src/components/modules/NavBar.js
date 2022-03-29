@@ -35,12 +35,14 @@ class NavBar extends Component {
             <Link to="/peregrinaciones" className="NavBar-link">
               <div className="NavBar-text">PEREGRINACIONES</div>
             </Link>
-            <Link to="/llamada" className="NavBar-link">
-              <div className="NavBar-text">LLAMADA</div>
-            </Link>
-            <Link to="/applications" className="NavBar-link">
+            <div className="NavBar-text">
+              <a href="tel:+1-805-509-3354" className="NavBar-link">
+                LLAMADA +1(805) 509-3354
+              </a>
+            </div>
+            {/* <Link to="/applications" className="NavBar-link">
               <div className="NavBar-text">CONÉCTATE</div>
-            </Link>
+            </Link> */}
           </div>
         </nav>
       </>

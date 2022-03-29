@@ -3,7 +3,9 @@ import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import NavBar from "./modules/NavBar.js";
 import QuienesSomos from "./pages/QuienesSomos.js";
-import PaginaPrincipal from "./pages/PaginaPrincipal";
+import PaginaPrincipal from "./pages/PaginaPrincipal.js";
+import PaginaPeregrinaciones from "./pages/PaginaPeregrinaciones.js";
+import PaginaInformacion from "./pages/PaginaInformacion.js";
 
 import "../utilities.css";
 
@@ -53,6 +55,8 @@ class App extends Component {
         <Router>
           <PaginaPrincipal path="/" />
           <QuienesSomos path="/quienesSomos" />
+          <PaginaInformacion path="informacion" />
+          <PaginaPeregrinaciones path="/peregrinaciones" />
           <NotFound default />
         </Router>
       </>
