@@ -1,9 +1,14 @@
 .ConectateButton-button {
   color: white;
-  background-color: teal;
+  background-color: #e4bc36;
   z-index: -1;
   height: 50px;
   font-size: 30px;
   border-radius: 10px;
   font-family: "Lucida Handwriting", cursive;
+}
+
+.ConectateButton-button:hover {
+  font-weight: bold;
+  background-color: green;
 }

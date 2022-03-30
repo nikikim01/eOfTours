@@ -1,17 +1,17 @@
 .NavBar-container {
-  padding: var(--s) var(--s);
+  padding: var(--xs) var(--s);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  color: var(gray);
+  background-color: #e4bc36;
 }
 
 .NavBar-text {
   font-size: 13px;
   font-weight: bold;
   color: #333333;
-  padding: 18px 12px;
+  padding: 0 12px;
 }
 
 .NavBar-subPages {
@@ -26,7 +26,8 @@
 }
 
 .NavBar-text:hover {
-  color: #20c997;
+  color: #365ee4;
+  font-size: 16px;
 }
 
 .NavBar-logo {

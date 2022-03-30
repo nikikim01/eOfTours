@@ -45,6 +45,8 @@
 .QuienesSomos-imgSubContainer {
   display: flex;
   flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
 
 .QuienesSomos-imgSubTitle {
@@ -55,17 +57,18 @@
   border-radius: 10px;
   position: absolute;
   font-size: 45px;
-  background-color: teal;
-  left: 15vw;
-  top: 75vh;
+  background-color: green;
+  right: 540px;
+  top: 615px;
   padding: 0 20px;
+  white-space: pre;
 }
 
 .QuienesSomos-imgConectate {
   display: block;
   position: absolute;
-  right: 300px;
-  bottom: 11.5vh;
+  left: 70vw;
+  bottom: 12vh;
 }
 
 .QuienesSomos-body {
