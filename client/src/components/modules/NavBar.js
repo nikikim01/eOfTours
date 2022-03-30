@@ -40,8 +40,8 @@ class NavBar extends Component {
                 LLAMADA +1 (805) 509-3354
               </a>
             </div>
-            <div>
-              <a className="NavBar-text" href="whatsapp://send?text=hello&phone=18055093354">
+            <div className="NavBar-text">
+              <a className="NavBar-link" href="whatsapp://send?text=hello&phone=18055093354">
                 CONÉCTATE
               </a>
             </div>
