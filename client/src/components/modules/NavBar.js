@@ -37,12 +37,14 @@ class NavBar extends Component {
             </Link>
             <div className="NavBar-text">
               <a href="tel:+1-805-509-3354" className="NavBar-link">
-                LLAMADA +1(805) 509-3354
+                LLAMADA +1 (805) 509-3354
               </a>
             </div>
-            {/* <Link to="/applications" className="NavBar-link">
-              <div className="NavBar-text">CONÉCTATE</div>
-            </Link> */}
+            <div>
+              <a className="NavBar-text" href="whatsapp://send?text=hello&phone=18055093354">
+                CONÉCTATE
+              </a>
+            </div>
           </div>
         </nav>
       </>
