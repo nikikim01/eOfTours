@@ -1,7 +1,13 @@
 .QuienesSomos-container {
   display: flex;
   flex-direction: column;
-  padding: 0px 60px 0px 60px;
+  padding: 0px 50px 0px 50px;
+}
+
+.QuienesSomos-bodyContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 150px;
 }
 
 .QuienesSomos-title {
@@ -60,4 +66,9 @@
   position: absolute;
   right: 300px;
   bottom: 11.5vh;
+}
+
+.QuienesSomos-body {
+  font-weight: 500;
+  font-size: 18px;
 }
