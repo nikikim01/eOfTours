@@ -1,0 +1,9 @@
+.ConectateButton-button {
+  color: white;
+  background-color: teal;
+  z-index: -1;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  font-family: "Lucida Handwriting", cursive;
+}

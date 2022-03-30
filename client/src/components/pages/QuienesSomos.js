@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "@reach/router";
+import ConectateButton from "../modules/ConectateButton.js";
 
 import "./QuienesSomos.css";
 
@@ -8,15 +9,19 @@ class QuienesSomos extends Component {
     return (
       <>
         <div className="QuienesSomos-container">
-          <p>Quiénes Somos</p>
           <div className="QuienesSomos-imgContainer">
             <img
-              src="https://storage.googleapis.com/eoftours/placeholderQuienesSomos.jpeg"
-              alt="Israel Streets"
+              src="https://storage.googleapis.com/eoftours/alley1024x683.jpeg"
+              alt="Israel Alley"
               className="QuienesSomos-img"
             ></img>
-            <p className="QuienesSomos-imgTitle">placeholderImage</p>
-            {/* <p className="QuienesSomos-imgTitle">Nosotros</p> */}
+            <p className="QuienesSomos-imgTitle">Nosotros</p>
+            <div className="QuienesSomos-imgSubContainer">
+              <div className="QuienesSomos-imgConectate">
+                <ConectateButton />
+              </div>
+              <p className="QuienesSomos-imgSubTitle">Su sueño de viajar a lugares únicos: </p>
+            </div>
           </div>
           <p className="QuienesSomos-title">Quiénes somos</p>
           <p>

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./PaginaPrincipal.css";
+import ConectateButton from "../modules/ConectateButton.js";
 
 class PaginaPrincipal extends Component {
   constructor(props) {
@@ -7,15 +9,7 @@ class PaginaPrincipal extends Component {
   render() {
     return (
       <>
-        <button
-          className="PaginaPrincipal-button"
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.href = "whatsapp://send?text=hello&phone=18055093354";
-          }}
-        >
-          CONÉCTATE
-        </button>
+        <ConectateButton />
         <p>pagina principal</p>
       </>
     );

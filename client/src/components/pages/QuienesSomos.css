@@ -17,18 +17,47 @@
 }
 
 .QuienesSomos-img {
-  width: 75vw;
-  height: auto;
-  margin: 0 8vw;
+  width: auto;
+  height: 80vh;
+  margin: 0 3vw;
   position: relative;
 }
+
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"); */
 
 .QuienesSomos-imgTitle {
   display: block;
   color: white;
-  font-weight: bolder;
-  font-size: 55px;
+  font-family: "Lucida Handwriting", cursive;
+  font-weight: 900;
+  font-size: 65px;
   position: absolute;
-  top: 60vh;
-  left: 40vw;
+  top: 55vh;
+  left: 43vw;
+}
+
+.QuienesSomos-imgSubContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.QuienesSomos-imgSubTitle {
+  display: block;
+  color: white;
+  font-family: "Lucida Handwriting", cursive;
+  font-weight: 900;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 45px;
+  background-color: teal;
+  left: 15vw;
+  top: 75vh;
+  padding: 0 20px;
+}
+
+.QuienesSomos-imgConectate {
+  display: block;
+  position: absolute;
+  right: 300px;
+  bottom: 11.5vh;
 }
