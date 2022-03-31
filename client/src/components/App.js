@@ -6,6 +6,10 @@ import QuienesSomos from "./pages/QuienesSomos.js";
 import PaginaPrincipal from "./pages/PaginaPrincipal.js";
 import PaginaPeregrinaciones from "./pages/PaginaPeregrinaciones.js";
 import PaginaInformacion from "./pages/PaginaInformacion.js";
+import Footer from "./modules/Footer.js";
+import PreguntasFrecuentes from "./pages/PreguntasFrecuentes.js";
+import GarantiaDeReembolso from "./pages/GarantiaDeReembolso.js";
+import PoliticasDeCancelacion from "./pages/PoliticasDeCancelacion.js";
 
 import "../utilities.css";
 
@@ -57,8 +61,12 @@ class App extends Component {
           <QuienesSomos path="/quienesSomos" />
           <PaginaInformacion path="informacion" />
           <PaginaPeregrinaciones path="/peregrinaciones" />
+          <PreguntasFrecuentes path="/preguntasFrecuentes" />
+          <GarantiaDeReembolso path="/garantiaDeReembolso" />
+          <PoliticasDeCancelacion path="politicasDeCancelacion" />
           <NotFound default />
         </Router>
+        <Footer />
       </>
     );
   }

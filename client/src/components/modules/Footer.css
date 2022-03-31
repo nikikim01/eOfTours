@@ -1,0 +1,27 @@
+.Footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #365ee4;
+}
+
+.Footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer-subcolumn {
+  font-size: 10px;
+}
+/* make diff colors or no? */
+.Footer-peregrinaciones {
+  color: #e4db36;
+}
+
+.Footer-informacion {
+  color: #e4db36;
+}
+
+.Footer-aCercaDe {
+  color: #e4db36;
+}

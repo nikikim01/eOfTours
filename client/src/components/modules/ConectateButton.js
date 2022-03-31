@@ -7,15 +7,17 @@ class ConectateButton extends Component {
   }
   render() {
     return (
-      <button
-        className="ConectateButton-button"
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.href = "whatsapp://send?text=hello&phone=18055093354";
-        }}
-      >
-        CONÉCTATE
-      </button>
+      <>
+        <button
+          className="ConectateButton-button"
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href = "https://wa.link/or025c";
+          }}
+        >
+          CONÉCTATE
+        </button>
+      </>
     );
   }
 }

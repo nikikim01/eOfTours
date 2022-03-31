@@ -4,15 +4,6 @@ import { Link } from "@reach/router";
 import "./NavBar.css";
 
 // The Navigation Bar at the top of all pages - takes no props
-const Show = () => {
-  const [show, setShow] = useState(false);
-  const showDropdown = (e) => {
-    setShow(!show);
-  };
-  const hideDropdown = (e) => {
-    setShow(false);
-  };
-};
 
 class NavBar extends Component {
   render() {
