@@ -14,14 +14,9 @@
   font-size: 10px;
 }
 /* make diff colors or no? */
-.Footer-peregrinaciones {
-  color: #e4db36;
-}
-
-.Footer-informacion {
-  color: #e4db36;
-}
-
+.Footer-peregrinaciones,
+.Footer-informacion,
 .Footer-aCercaDe {
   color: #e4db36;
+  text-decoration: none;
 }

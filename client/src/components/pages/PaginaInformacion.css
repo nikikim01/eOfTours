@@ -1,0 +1,38 @@
+.scroll-a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+.scroll-a:hover {
+  color: var(--eoftoursblue);
+}
+.scroll-nav,
+.scroll-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.scroll-nav {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+}
+.scroll-navContainer {
+  display: flex;
+  flex-direction: row;
+}
+.scroll-container {
+  width: 100%;
+  height: 80vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+}

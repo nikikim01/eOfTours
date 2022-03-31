@@ -1,16 +1,1 @@
-.PaginaPrincipal-sliderImg {
-  display: flex;
-  justify-content: center;
-  align-items: baseline !important;
-}
-
-.PaginaPrincipal-slide {
-  display: flex !important;
-  justify-content: center;
-}
-
-.PaginaPrincipal-navButtons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+@import "~react-image-gallery/styles/css/image-gallery.css";

@@ -11,16 +11,16 @@ class QuienesSomos extends Component {
         <div className="QuienesSomos-container">
           <div className="QuienesSomos-imgContainer">
             <img
-              src="https://storage.googleapis.com/eoftours/alley1024x683.jpeg"
+              src="https://storage.googleapis.com/eoftours/quienesSomosBckgrnd.png"
               alt="Israel Alley"
               className="QuienesSomos-img"
             ></img>
-            <p className="QuienesSomos-imgTitle">Nosotros</p>
+            {/* <p className="QuienesSomos-imgTitle">Nosotros</p> */}
             <div className="QuienesSomos-imgSubContainer">
               <div className="QuienesSomos-imgConectate">
                 <ConectateButton />
               </div>
-              <p className="QuienesSomos-imgSubTitle">Su sueño de viajar a lugares únicos: </p>
+              {/* <p className="QuienesSomos-imgSubTitle">Su sueño de viajar a lugares únicos: </p> */}
             </div>
           </div>
           <div className="QuienesSomos-bodyContainer">

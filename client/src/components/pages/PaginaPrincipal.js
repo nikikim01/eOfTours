@@ -1,37 +1,52 @@
-import React from "react";
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
-import "pure-react-carousel/dist/react-carousel.es.css";
+import React, { Component } from "react";
+import ImageGallery from "react-image-gallery";
 
 import "./PaginaPrincipal.css";
+import "../../utilities.css";
 
-export default class extends React.Component {
+const images = [
+  {
+    // TODO: NEED HIGHER QUALITY PHOTO
+    original: "https://storage.googleapis.com/eoftours/alley1024x683.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/alley1024x683.jpeg",
+  },
+  {
+    // TODO: NEED HIGHER QUALITY PHOTO
+    original:
+      "https://storage.googleapis.com/eoftours/Basilica-de-la-Anunciacion-en-Nazaret-300x225.jpeg",
+    thumbnail:
+      "https://storage.googleapis.com/eoftours/Basilica-de-la-Anunciacion-en-Nazaret-300x225.jpeg",
+  },
+  {
+    // TODO: NEED HIGHER QUALITY PHOTO
+    original: "https://storage.googleapis.com/eoftours/boat300x200.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/boat300x200.jpeg",
+  },
+  {
+    // TODO: NEED HIGHER QUALITY PHOTO
+    original: "https://storage.googleapis.com/eoftours/church_peopl300x200.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/church_peopl300x200.jpeg",
+  },
+  {
+    // TODO: NEED HIGHER QUALITY PHOTO
+    original: "https://storage.googleapis.com/eoftours/congregation300x200.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/congregation300x200.jpeg",
+  },
+  {
+    // TODO: NEED HIGHER QUALITY PHOTO
+    original: "https://storage.googleapis.com/eoftours/israelCrosses225x300.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/israelCrosses225x300.jpeg",
+  },
+];
+
+class PaginaPrincipal extends Component {
   render() {
     return (
-      <div className="PaginaPrincipal-carouselContainer">
-        <CarouselProvider naturalSlideWidth={100} naturalSlideHeight={40} totalSlides={3}>
-          <Slider>
-            <Slide className="PaginaPrincipal-slide" index={0}>
-              <div className="PaginaPrincipal-sliderImg">
-                <img src="https://storage.googleapis.com/eoftours/Basilica-de-la-Anunciacion-en-Nazaret-300x225.jpeg"></img>
-              </div>
-            </Slide>
-            <Slide className="PaginaPrincipal-slide" index={1}>
-              <div className="PaginaPrincipal-sliderImg">
-                <img src="https://storage.googleapis.com/eoftours/israelCrosses225x300.jpeg"></img>
-              </div>
-            </Slide>
-            <Slide className="PaginaPrincipal-slide" index={2}>
-              <div className="PaginaPrincipal-sliderImg">
-                <img src="https://storage.googleapis.com/eoftours/congregation300x200.jpeg"></img>
-              </div>
-            </Slide>
-          </Slider>
-          <div className="PaginaPrincipal-navButtons">
-            <ButtonBack>Back</ButtonBack>
-            <ButtonNext>Next</ButtonNext>
-          </div>
-        </CarouselProvider>
-      </div>
+      <>
+        <ImageGallery items={images} />
+      </>
     );
   }
 }
+
+export default PaginaPrincipal;

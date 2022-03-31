@@ -42,7 +42,11 @@ class Footer extends Component {
           <div className="Footer-column">
             <h3 className="Footer-informacion">INFORMACION</h3>
             <div className="Footer-subcolumn">
-              <h2 className="Footer-informacion">Seguro de viaje</h2>
+              <h2 className="Footer-informacion">
+                <Link to="/informacion#seguro-de-viaje" className="Footer-informacion">
+                  Seguro de viaje
+                </Link>
+              </h2>
               <h2>
                 <Link to="/preguntasFrecuentes" className="Footer-informacion">
                   Preguntas Frecuentes
@@ -59,28 +63,30 @@ class Footer extends Component {
                 </Link>
               </h2>
               <h2>
-                <a
-                  className="Footer-informacion"
-                  href="http://eoftours.com/%20politicas-de-privacidad%20/"
-                >
+                <Link to="/politicasDePrivacidad" className="Footer-informacion">
                   Políticas de privacidad
-                </a>
+                </Link>
               </h2>
+
+              <h2>
+                <Link to="/informacion#terminos-y-condiciones" className="Footer-informacion">
+                  Términos y condiciones
+                </Link>
+              </h2>
+
               <h2>
                 <a
                   className="Footer-informacion"
-                  href="http://eoftours.com/%20Terminos-y-Condiciones%20/"
+                  href="http://eoftours.herokuapp.com/informacion#medios-de-pago"
                 >
-                  Términos y condiciones
-                </a>
-              </h2>
-              <h2>
-                <a className="Footer-informacion" href="http://eoftours.com/%20Medios-de-pago%20/">
                   Medios de pago
                 </a>
               </h2>
               <h2>
-                <a className="Footer-informacion" href="http://eoftours.com/pago-y-confirmacion/">
+                <a
+                  className="Footer-informacion"
+                  href="http://eoftours.herokuapp.com/informacion#pago-y-confirmacion"
+                >
                   Pago y Confirmación
                 </a>
               </h2>
