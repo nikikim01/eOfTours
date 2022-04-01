@@ -69,7 +69,7 @@ class Footer extends Component {
               </h2>
 
               <h2>
-                <Link to="/informacion#terminos-y-condiciones" className="Footer-informacion">
+                <Link to="/informacion" className="Footer-informacion">
                   Términos y condiciones
                 </Link>
               </h2>

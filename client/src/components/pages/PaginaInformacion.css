@@ -1,48 +1,54 @@
-.scroll-a {
+.PaginaInformacion-a {
   display: inline-block;
   width: 100%;
   text-decoration: none;
   color: black;
   font-weight: 400;
 }
-.scroll-a:hover {
+.PaginaInformacion-a:hover {
   color: var(--eoftoursblue);
 }
-.scroll-nav,
-.scroll-container {
+.PaginaInformacion-nav,
+.PaginaInformacion-container {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
-.scroll-nav {
+.PaginaInformacion-nav {
   width: 100%;
   height: auto;
   padding: 5px;
   border: 1px solid black;
 }
-.scroll-navContainer {
+.PaginaInformacion-navContainer {
   display: flex;
   flex-direction: row;
-}
-.scroll-container {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 50%;
-  height: 50%;
-  background-color: white;
-  transform: translate(-50%, -50%);
-
-  height: auto;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
-.scroll-page {
-  overflow-y: auto;
+.PaginaInformacion-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  transform: translate(-50%, -40%);
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.PaginaInformacion-page {
+  overflow-y: scroll;
   scroll-behavior: smooth;
   line-height: normal;
   height: 100%;
 }
-.scroll-spacer {
-  margin: 10vw;
+.PaginaInformacion-title {
+  text-align: center;
+  color: white;
+  padding: 5px 0;
+  position: relative;
+  margin: 0;
+  background: black;
+  font-weight: 400;
 }
