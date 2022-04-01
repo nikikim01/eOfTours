@@ -8,7 +8,7 @@ const images = [
   {
     // TODO: NEED HIGHER QUALITY PHOTO
     original: "https://storage.googleapis.com/eoftours/alley1024x683.jpeg",
-    thumbnail: "https://storage.googleapis.com/eoftours/alley1024x683.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/alley300x200.jpeg",
   },
   {
     // TODO: NEED HIGHER QUALITY PHOTO
@@ -36,6 +36,11 @@ const images = [
     // TODO: NEED HIGHER QUALITY PHOTO
     original: "https://storage.googleapis.com/eoftours/crosses1440x1920.jpeg",
     thumbnail: "https://storage.googleapis.com/eoftours/israelCrosses225x300.jpeg",
+  },
+  {
+    // TODO: NEED HIGHER QUALITY PHOTO
+    original: "https://storage.googleapis.com/eoftours/candles511x768.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/candles200x300.jpeg",
   },
 ];
 

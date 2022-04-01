@@ -95,7 +95,11 @@ class Footer extends Component {
           <div className="Footer-column">
             <h3 className="Footer-aCercaDe">A CERCA DE </h3>
             <div className="Footer-subcolumn">
-              <h2 className="Footer-aCercaDe">Nosotros</h2>
+              <h2 className="Footer-aCercaDe">
+                <Link to="/quienesSomos" className="Footer-aCercaDe">
+                  Nosotros
+                </Link>
+              </h2>
             </div>
           </div>
           <div className="Footer-column">
