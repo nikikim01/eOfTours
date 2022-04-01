@@ -13,28 +13,28 @@ const images = [
   {
     // TODO: NEED HIGHER QUALITY PHOTO
     original:
-      "https://storage.googleapis.com/eoftours/Basilica-de-la-Anunciacion-en-Nazaret-300x225.jpeg",
+      "https://storage.googleapis.com/eoftours/Basilica-de-la-Anunciacion-en-Nazaret638x479.jpeg",
     thumbnail:
       "https://storage.googleapis.com/eoftours/Basilica-de-la-Anunciacion-en-Nazaret-300x225.jpeg",
   },
   {
     // TODO: NEED HIGHER QUALITY PHOTO
-    original: "https://storage.googleapis.com/eoftours/boat300x200.jpeg",
+    original: "https://storage.googleapis.com/eoftours/boat1024x681.jpeg",
     thumbnail: "https://storage.googleapis.com/eoftours/boat300x200.jpeg",
   },
   {
     // TODO: NEED HIGHER QUALITY PHOTO
-    original: "https://storage.googleapis.com/eoftours/church_peopl300x200.jpeg",
-    thumbnail: "https://storage.googleapis.com/eoftours/church_peopl300x200.jpeg",
+    original: "https://storage.googleapis.com/eoftours/church_people1024x681.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/church_people300x200.jpeg",
   },
   {
     // TODO: NEED HIGHER QUALITY PHOTO
-    original: "https://storage.googleapis.com/eoftours/congregation300x200.jpeg",
+    original: "https://storage.googleapis.com/eoftours/congregation1024x681.jpeg",
     thumbnail: "https://storage.googleapis.com/eoftours/congregation300x200.jpeg",
   },
   {
     // TODO: NEED HIGHER QUALITY PHOTO
-    original: "https://storage.googleapis.com/eoftours/israelCrosses225x300.jpeg",
+    original: "https://storage.googleapis.com/eoftours/crosses1440x1920.jpeg",
     thumbnail: "https://storage.googleapis.com/eoftours/israelCrosses225x300.jpeg",
   },
 ];

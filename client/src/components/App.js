@@ -86,12 +86,12 @@ class App extends Component {
           <PoliticasDePrivacidad path="/politicasDePrivacidad" />
           <NotFound default />
         </Router>
+        <Footer />
         <OnRouteChange
           action={() => {
             window.scrollTo(0, 0);
           }}
         />
-        <Footer />
       </>
     );
   }
