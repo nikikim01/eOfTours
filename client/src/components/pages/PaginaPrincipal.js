@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ConectateButton from "../modules/ConectateButton.js";
 import ImageGallery from "react-image-gallery";
 
 import "./PaginaPrincipal.css";
@@ -72,6 +73,9 @@ class PaginaPrincipal extends Component {
         <h1 className="PaginaPrincipal-imageText">
           PEREGRINACIONES Y VIAJES PARA QUE TE CONECTES CON DIOS
         </h1>
+        <div className="PaginaPrincipal-conectateButton">
+          <ConectateButton />
+        </div>
       </>
     );
   }

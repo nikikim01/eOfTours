@@ -13,3 +13,8 @@
   width: 50vw;
   padding: 0;
 }
+.PaginaPrincipal-conectateButton {
+  position: absolute;
+  left: 43vw;
+  bottom: 260px;
+}
