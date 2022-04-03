@@ -3,10 +3,10 @@
   flex-direction: row;
   justify-content: space-evenly;
   background-color: #365ee4;
-  position: fixed;
+  /* position: relative;
   left: 0;
   bottom: 0;
-  right: 0;
+  right: 0; */
 }
 
 .Footer-column {

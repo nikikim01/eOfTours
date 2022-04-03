@@ -6,6 +6,12 @@ import "./NavBar.css";
 // The Navigation Bar at the top of all pages - takes no props
 
 class NavBar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isOpen: false,
+    };
+  }
   render() {
     return (
       <>

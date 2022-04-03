@@ -7,8 +7,28 @@ import "../../utilities.css";
 const images = [
   {
     // TODO: NEED HIGHER QUALITY PHOTO
+    original: "https://storage.googleapis.com/eoftours/pyramids1024x384.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/pyramids300x113.jpeg",
+  },
+  {
+    // TODO: NEED HIGHER QUALITY PHOTO
+    original: "https://storage.googleapis.com/eoftours/esterno1024x630.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/esterno300x184.jpeg",
+  },
+  {
+    // TODO: NEED HIGHER QUALITY PHOTO
+    original: "https://storage.googleapis.com/eoftours/main1-1024x683.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/main1-460x307.jpeg",
+  },
+  {
+    // TODO: NEED HIGHER QUALITY PHOTO
     original: "https://storage.googleapis.com/eoftours/alley1024x683.jpeg",
     thumbnail: "https://storage.googleapis.com/eoftours/alley300x200.jpeg",
+  },
+  {
+    // TODO: NEED HIGHER QUALITY PHOTO
+    original: "https://storage.googleapis.com/eoftours/MARICELA-768x1024.jpeg",
+    thumbnail: "https://storage.googleapis.com/eoftours/MARICELA-225x300.jpeg",
   },
   {
     // TODO: NEED HIGHER QUALITY PHOTO
@@ -49,6 +69,9 @@ class PaginaPrincipal extends Component {
     return (
       <>
         <ImageGallery items={images} />
+        <h1 className="PaginaPrincipal-imageText">
+          PEREGRINACIONES Y VIAJES PARA QUE TE CONECTES CON DIOS
+        </h1>
       </>
     );
   }

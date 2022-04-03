@@ -11,6 +11,7 @@ import PreguntasFrecuentes from "./pages/PreguntasFrecuentes.js";
 import GarantiaDeReembolso from "./pages/GarantiaDeReembolso.js";
 import PoliticasDeCancelacion from "./pages/PoliticasDeCancelacion.js";
 import PoliticasDePrivacidad from "./pages/PoliticasDePrivacidad.js";
+import TerminosYCondiciones from "./pages/TerminosYCondiciones.js";
 
 import "../utilities.css";
 
@@ -84,6 +85,7 @@ class App extends Component {
           <GarantiaDeReembolso path="/garantiaDeReembolso" />
           <PoliticasDeCancelacion path="/politicasDeCancelacion" />
           <PoliticasDePrivacidad path="/politicasDePrivacidad" />
+          <TerminosYCondiciones path="terminosYCondiciones" />
           <NotFound default />
         </Router>
         <Footer />
