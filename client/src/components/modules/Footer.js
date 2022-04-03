@@ -40,7 +40,7 @@ class Footer extends Component {
             </div>
           </div>
           <div className="Footer-column">
-            <h3 className="Footer-informacion">INFORMACION</h3>
+            <h3 className="Footer-informacion">INFORMACIÓN</h3>
             <div className="Footer-subcolumn">
               <h2>
                 <Link to="/preguntasFrecuentes" className="Footer-informacion">
