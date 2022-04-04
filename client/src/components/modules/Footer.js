@@ -1,5 +1,6 @@
 import React, { Component, useState } from "react";
 import { Link } from "@reach/router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./Footer.css";
 import ConectateButton from "./ConectateButton";
@@ -103,6 +104,11 @@ class Footer extends Component {
           </div>
           <div className="Footer-column">
             <div className="Footer-subcolumn">
+              <div className="Footer-socialMedia">
+                <i className="fa-brands fa-facebook-square fa-6x"></i>
+                <i class="fa-brands fa-twitter-square fa-6x"></i>
+                <i class="fa-brands fa-instagram-square fa-6x"></i>
+              </div>
               <ConectateButton />
             </div>
           </div>

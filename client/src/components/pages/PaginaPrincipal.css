@@ -18,3 +18,69 @@
   left: 43vw;
   bottom: 260px;
 }
+
+.PaginaPrincipal-dottedDivider {
+  border: none;
+  border-top: 3px dotted #cbb058;
+  color: white;
+  background-color: white;
+  height: 3px;
+  width: 100%;
+}
+
+.PaginaPrincipal-header,
+.PaginaPrincipal-subheader,
+.PaginaPrincipal-subheader,
+.PaginaPrincipal-expresionesDeFeContainer,
+.PaginaPrincipal-expresionesDeFeColumn,
+.PaginaPrincipal-porQueExpresionesDeFeContainer {
+  display: flex;
+}
+
+.PaginaPrincipal-expresionesDeFeRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.PaginaPrincipal-header,
+.PaginaPrincipal-porQueExpresionesDeFeContainer {
+  justify-content: center;
+}
+
+.PaginaPrincipal-subheader,
+.PaginaPrincipal-subsubheader {
+  justify-content: start;
+}
+
+.PaginaPrincipal-subheader {
+  padding-left: 10px;
+}
+
+.PaginaPrincipal-subsubheader {
+  padding-left: 20vw;
+  color: darkslategray;
+}
+
+.PaginaPrincipal-expresionesDeFeContainer {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.PaginaPrincipal-expresionesDeFeColumn,
+.PaginaPrincipal-porQueExpresionesDeFeContainer {
+  flex-direction: column;
+}
+
+.PaginaPrincipal-expresionesDeFeHeader {
+  color: #365ee4;
+}
+.PaginaPrincipal-iconHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #cbb058;
+}
+.PaginaPrincipal-faMargin {
+  margin: 2%;
+}

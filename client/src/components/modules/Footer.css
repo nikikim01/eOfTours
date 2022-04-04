@@ -24,3 +24,9 @@
   color: #e4db36;
   text-decoration: none;
 }
+
+.Footer-socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
