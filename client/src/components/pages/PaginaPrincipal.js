@@ -11,11 +11,11 @@ const images = [
     original: "https://storage.googleapis.com/eoftours/pyramids1024x384.jpeg",
     thumbnail: "https://storage.googleapis.com/eoftours/pyramids300x113.jpeg",
   },
-  {
-    // TODO: NEED HIGHER QUALITY PHOTO
-    original: "https://storage.googleapis.com/eoftours/esterno1024x630.jpeg",
-    thumbnail: "https://storage.googleapis.com/eoftours/esterno300x184.jpeg",
-  },
+  // {
+  //   // TODO: NEED HIGHER QUALITY PHOTO
+  //   original: "https://storage.googleapis.com/eoftours/esterno1024x630.jpeg",
+  //   thumbnail: "https://storage.googleapis.com/eoftours/esterno300x184.jpeg",
+  // },
   {
     // TODO: NEED HIGHER QUALITY PHOTO
     original: "https://storage.googleapis.com/eoftours/main1-1024x683.jpeg",
@@ -83,8 +83,8 @@ class PaginaPrincipal extends Component {
         <div className="PaginaPrincipal-porQueExpresionesDeFeContainer">
           <h1 className="PaginaPrincipal-header">¿Por qué? EXPRESIONES DE FE</h1>
           <div className="PaginaPrincipal-expresionesDeFeContainer">
-            <div className="PaginaPrincipal-expresionesDeFeColumn">
-              <div className="PaginaPrincipal-expresionesDeFeRow">
+            <div className="PaginaPrincipal-containerColumn">
+              <div className="PaginaPrincipal-containerRow">
                 <div className="PaginaPrincipal-iconHeaderContainer">
                   <i class="fa-solid fa-business-time fa-2x PaginaPrincipal-faMargin"></i>
                   <h2 className="PaginaPrincipal-expresionesDeFeHeader">Experiencia</h2>
@@ -95,7 +95,7 @@ class PaginaPrincipal extends Component {
                   como en casa en estos lugares preciados.
                 </p>
               </div>
-              <div className="PaginaPrincipal-expresionesDeFeRow">
+              <div className="PaginaPrincipal-containerRow">
                 <div className="PaginaPrincipal-iconHeaderContainer">
                   <i class="fa-solid fa-plane-departure fa-2x PaginaPrincipal-faMargin"></i>
                   <h2 className="PaginaPrincipal-expresionesDeFeHeader">Alojamiento de vuelo</h2>
@@ -107,7 +107,7 @@ class PaginaPrincipal extends Component {
                   mejor tranquilidad en tu vuelo ¡definitivamente vivirás una experiencia de altura!
                 </p>
               </div>
-              <div className="PaginaPrincipal-expresionesDeFeRow">
+              <div className="PaginaPrincipal-containerRow">
                 <div className="PaginaPrincipal-iconHeaderContainer">
                   <i class="fa-solid fa-face-laugh-beam fa-2x PaginaPrincipal-faMargin"></i>
                   <h2 className="PaginaPrincipal-expresionesDeFeHeader">
@@ -122,8 +122,8 @@ class PaginaPrincipal extends Component {
                 </p>
               </div>
             </div>
-            <div className="PaginaPrincipal-expresionesDeFeColumn">
-              <div className="PaginaPrincipal-expresionesDeFeRow">
+            <div className="PaginaPrincipal-containerColumn">
+              <div className="PaginaPrincipal-containerRow">
                 <div className="PaginaPrincipal-iconHeaderContainer">
                   <i class="fa-solid fa-clipboard-list fa-2x PaginaPrincipal-faMargin"></i>
                   <h2 className="PaginaPrincipal-expresionesDeFeHeader">Itinerarios a la mano</h2>
@@ -134,7 +134,7 @@ class PaginaPrincipal extends Component {
                   la que buscas.
                 </p>
               </div>
-              <div className="PaginaPrincipal-expresionesDeFeRow">
+              <div className="PaginaPrincipal-containerRow">
                 <div className="PaginaPrincipal-iconHeaderContainer">
                   <i class="fa-solid fa-bed fa-2x PaginaPrincipal-faMargin"></i>
                   <h2 className="PaginaPrincipal-expresionesDeFeHeader">Hoteles cómodos</h2>
@@ -146,7 +146,7 @@ class PaginaPrincipal extends Component {
                   bioseguridad para garantizarte seguridad y tranquilidad en tu estadía.
                 </p>
               </div>
-              <div className="PaginaPrincipal-expresionesDeFeRow">
+              <div className="PaginaPrincipal-containerRow">
                 <div className="PaginaPrincipal-iconHeaderContainer">
                   <i class="fa-solid fa-circle-info fa-2x PaginaPrincipal-faMargin"></i>
                   <h2 className="PaginaPrincipal-expresionesDeFeHeader">Información actualizada</h2>
@@ -161,6 +161,51 @@ class PaginaPrincipal extends Component {
             </div>
           </div>
         </div>
+        <div className="PaginaPrincipal-conectateButtonAfterEOF">
+          <ConectateButton />
+        </div>
+        <div className="PaginaPrincipal-dottedDivider"></div>
+        <h1 className="PaginaPrincipal-header">Lugares para descansar</h1>
+        <div className="PaginaPrincipal-lugaresParaDescansarContainer">
+          <div className="PaginaPrincipal-lugaresParaDescansarRow">
+            <div className="PaginaPrincipal-lugaresParaDescansarText">
+              <i class="fa-solid fa-hotel fa-2x PaginaPrincipal-faMargin PaginaPrincipal-blue"></i>
+              <h2>Hospedaje en el Hotel de 5, 4 Estrellas, limpios y cómodos.</h2>
+              <i class="fa-solid fa-hotel fa-2x PaginaPrincipal-faMargin PaginaPrincipal-blue"></i>
+            </div>
+            <div className="PaginaPrincipal-lugaresParaDescansarText">
+              {" "}
+              <i class="fa-solid fa-place-of-worship fa-2x PaginaPrincipal-faMargin PaginaPrincipal-blue"></i>
+              <h2>Hospedaje en Monasterios y conventos</h2>
+              <i class="fa-solid fa-place-of-worship fa-2x PaginaPrincipal-faMargin PaginaPrincipal-blue"></i>
+            </div>
+          </div>
+          <div className="PaginaPrincipal-lugaresParaDescansarRow">
+            <img
+              className="PaginaPrincipal-mediumImage"
+              src="https://storage.googleapis.com/eoftours/prima-kings-hotel500x300.jpeg"
+            />
+            <img
+              className="PaginaPrincipal-mediumImage"
+              src="https://storage.googleapis.com/eoftours/esterno1024x630.jpeg"
+            />
+          </div>
+          {/* <div className="PaginaPrincipal-containerColumn">
+            <img
+              className="PaginaPrincipal-mediumImage"
+              src="https://storage.googleapis.com/eoftours/prima-kings-hotel500x300.jpeg"
+            />
+          </div>
+          <div className="PaginaPrincipal-containerColumn">
+            <i class="fa-solid fa-place-of-worship fa-2x PaginaPrincipal-faMargin"></i>
+            <h2>Hospedaje en Monasterios y conventos</h2>
+            
+          </div> */}
+        </div>
+        <div className="PaginaPrincipal-conectateButtonAfterEOF">
+          <ConectateButton />
+        </div>
+        <div className="PaginaPrincipal-dottedDivider"></div>
       </>
     );
   }

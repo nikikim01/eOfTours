@@ -19,6 +19,12 @@
   bottom: 260px;
 }
 
+.PaginaPrincipal-conectateButtonAfterEOF {
+  position: relative;
+  left: 43vw;
+  margin: 2% 0;
+}
+
 .PaginaPrincipal-dottedDivider {
   border: none;
   border-top: 3px dotted #cbb058;
@@ -32,12 +38,12 @@
 .PaginaPrincipal-subheader,
 .PaginaPrincipal-subheader,
 .PaginaPrincipal-expresionesDeFeContainer,
-.PaginaPrincipal-expresionesDeFeColumn,
+.PaginaPrincipal-containerColumn,
 .PaginaPrincipal-porQueExpresionesDeFeContainer {
   display: flex;
 }
 
-.PaginaPrincipal-expresionesDeFeRow {
+.PaginaPrincipal-containerRow {
   display: flex;
   flex-direction: column;
 }
@@ -66,12 +72,15 @@
   margin: 0 10%;
 }
 
-.PaginaPrincipal-expresionesDeFeColumn,
+.PaginaPrincipal-containerColumn,
 .PaginaPrincipal-porQueExpresionesDeFeContainer {
   flex-direction: column;
 }
 
 .PaginaPrincipal-expresionesDeFeHeader {
+  color: #365ee4;
+}
+.PaginaPrincipal-blue {
   color: #365ee4;
 }
 .PaginaPrincipal-iconHeaderContainer {
@@ -83,4 +92,23 @@
 }
 .PaginaPrincipal-faMargin {
   margin: 2%;
+}
+
+.PaginaPrincipal-mediumImage {
+  width: 30vw;
+}
+.PaginaPrincipal-lugaresParaDescansarContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.PaginaPrincipal-lugaresParaDescansarRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.PaginaPrincipal-lugaresParaDescansarText {
+  width: 30vw;
+  display: flex;
+  text-align: center;
 }
