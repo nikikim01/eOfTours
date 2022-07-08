@@ -2,21 +2,117 @@
 
 .PaginaPrincipal-imageText {
   background-color: rgba(255, 255, 255, 0.7);
-  font-size: 40px;
+  font-size: 2.5em;
   color: black;
   text-align: center;
   font-weight: 500;
   position: absolute;
-  bottom: 300px;
-  left: 25vw;
-  right: 0;
-  width: 50vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -110%);
+  -ms-transform: translate(-50%, -110%);
+  max-width: 50vw;
   padding: 0;
 }
-.PaginaPrincipal-conectateButton {
+.PaginaPrincipal-conectateButtonImage {
   position: absolute;
-  left: 43vw;
-  bottom: 260px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, +50%);
+  -ms-transform: translate(-50%, +50%);
+}
+
+@media (max-width: 78.5em) {
+  .PaginaPrincipal-imageText {
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    -ms-transform: translate(-50%, -250%);
+  }
+  .PaginaPrincipal-conectateButtonImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -180%);
+    -ms-transform: translate(-50%, -180%);
+  }
+}
+
+@media (max-width: 60em) {
+  .PaginaPrincipal-imageText {
+    font-size: 1.25em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -500%);
+    -ms-transform: translate(-50%, -500%);
+  }
+  .PaginaPrincipal-conectateButtonImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -400%);
+    -ms-transform: translate(-50%, -400%);
+  }
+}
+
+@media (max-width: 43.75em) {
+  .PaginaPrincipal-imageText {
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -750%);
+    -ms-transform: translate(-50%, -750%);
+  }
+  .PaginaPrincipal-conectateButtonImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -630%);
+    -ms-transform: translate(-50%, -630%);
+  }
+}
+
+@media (max-width: 32.5em) {
+  .PaginaPrincipal-imageText {
+    font-size: 0.75em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -1100%);
+    -ms-transform: translate(-50%, -1100%);
+  }
+  .PaginaPrincipal-conectateButtonImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -880%);
+    -ms-transform: translate(-50%, -880%);
+  }
+}
+@media (max-width: 23.5em) {
+  .PaginaPrincipal-imageText {
+    font-size: 0.6em;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -220%);
+    -ms-transform: translate(-50%, -220%);
+  }
+  .PaginaPrincipal-conectateButtonImage {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    -ms-transform: translate(-50%, -80%);
+  }
+}
+.PaginaPrincipal-conectateButton {
+  display: flex;
+  justify-content: center;
 }
 
 .PaginaPrincipal-conectateButtonAfterEOF {

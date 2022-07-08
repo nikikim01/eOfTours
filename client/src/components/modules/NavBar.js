@@ -18,7 +18,7 @@ class NavBar extends Component {
         <nav className="NavBar-container">
           <Link to="/" className="NavBar-link">
             <img
-              src="https://storage.googleapis.com/eoftours/tourGuideIcon.png"
+              src="https://storage.googleapis.com/eoftours/EOFTOURSLOGOrectangle.jpg"
               className="NavBar-logo"
             ></img>
           </Link>

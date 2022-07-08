@@ -69,12 +69,14 @@ class PaginaPrincipal extends Component {
   render() {
     return (
       <>
-        <ImageGallery items={images} />
-        <h1 className="PaginaPrincipal-imageText">
-          PEREGRINACIONES Y VIAJES PARA QUE TE CONECTES CON DIOS
-        </h1>
-        <div className="PaginaPrincipal-conectateButton">
-          <ConectateButton />
+        <div>
+          <ImageGallery items={images} />
+          <h1 className="PaginaPrincipal-imageText">
+            PEREGRINACIONES Y VIAJES PARA QUE TE CONECTES CON DIOS
+          </h1>
+          <div className="PaginaPrincipal-conectateButtonImage">
+            <ConectateButton />
+          </div>
         </div>
         <div className="PaginaPrincipal-dottedDivider"></div>
         <h1 className="PaginaPrincipal-subheader">Lo Que Vas A Vivir...</h1>
